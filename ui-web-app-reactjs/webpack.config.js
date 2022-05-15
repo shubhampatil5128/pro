@@ -395,7 +395,7 @@ module.exports = (env, argv) => ({
       run: () => {
         console.log('\n')
         API && console.log(`🌎  => API listening on port ${API_PORT}...`)
-        console.log(`💻  => Application running in browser at http://35.238.203.251:${DEV_SERVER_PORT}\n\n`)
+        console.log(`💻  => Application running in browser at http://18.144.57.123:${DEV_SERVER_PORT}\n\n`)
       }
     })
   ].filter(Boolean),
